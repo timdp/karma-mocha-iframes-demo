@@ -2,7 +2,7 @@
 
 [![JavaScript Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-Demo for karma-mocha-iframes.
+Demo for [karma-mocha-iframes](https://www.npmjs.com/package/karma-mocha-iframes).
 
 ## Usage
 
