@@ -14,6 +14,7 @@ describe('suite', function () {
   })
 
   it('fails', function () {
+    console.log('failing!')
     expect(true).to.be.false()
   })
 })
