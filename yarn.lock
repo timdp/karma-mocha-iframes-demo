@@ -1619,9 +1619,9 @@ karma-firefox-launcher@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/karma-firefox-launcher/-/karma-firefox-launcher-1.0.1.tgz#ce58f47c2013a88156d55a5d61337c099cf5bb51"
 
-karma-mocha-iframes@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/karma-mocha-iframes/-/karma-mocha-iframes-0.5.0.tgz#3c2ad54fbb2471ca9f73c156a11c61e4b3ec8810"
+karma-mocha-iframes@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/karma-mocha-iframes/-/karma-mocha-iframes-0.5.1.tgz#5e7a8de1b4348fd15ffbe8ae951693a7aa800978"
   dependencies:
     slash "^1.0.0"
 

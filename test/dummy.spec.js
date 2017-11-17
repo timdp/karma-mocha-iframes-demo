@@ -4,21 +4,37 @@ var isInInnerIframe = function () {
   return (window.location.href.indexOf('/iframe.html') >= 0)
 }
 
-beforeEach(function () {
+beforeEach(function (cb) {
   expect(isInInnerIframe()).to.be.true()
+  setTimeout(function () {
+    console.log('beforeEach')
+    cb()
+  }, 100)
 })
 
-after(function () {
+after(function (cb) {
   expect(isInInnerIframe()).to.be.true()
+  setTimeout(function () {
+    console.log('after')
+    cb()
+  }, 100)
 })
 
 describe('suite', function () {
-  before(function () {
+  before(function (cb) {
     expect(isInInnerIframe()).to.be.true()
+    setTimeout(function () {
+      console.log('before')
+      cb()
+    }, 100)
   })
 
-  afterEach(function () {
+  afterEach(function (cb) {
     expect(isInInnerIframe()).to.be.true()
+    setTimeout(function () {
+      console.log('afterEach')
+      cb()
+    }, 100)
   })
 
   it('succeeds', function () {
